@@ -1,57 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Thank You</title>
+  <meta charset="UTF-8">
+  <title>Thank You for Your Purchase</title>
   <style>
     body {
-      margin: 0;
-      background: radial-gradient(circle at center, #2a003f, #000);
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: black;
       color: white;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
       text-align: center;
+      font-family: Arial, sans-serif;
+      padding-top: 100px;
     }
-
     h1 {
       color: #bb86fc;
-      font-size: 2.5em;
     }
-
-    p {
-      font-size: 1.2em;
-      color: #ccc;
-    }
-
-    .back-button {
-      margin-top: 30px;
-      background-color: transparent;
-      border: 2px solid #bb86fc;
-      color: #bb86fc;
-      padding: 12px 24px;
-      font-size: 1em;
-      border-radius: 8px;
-      text-decoration: none;
-      transition: all 0.3s ease;
-    }
-
-    .back-button:hover {
+    a.button {
+      display: inline-block;
+      margin: 20px;
+      padding: 15px 30px;
       background-color: #bb86fc;
       color: black;
-      box-shadow: 0 0 10px #bb86fc;
+      text-decoration: none;
+      border-radius: 10px;
+      font-size: 1.1em;
+      font-weight: bold;
+      transition: all 0.3s ease;
+    }
+    a.button:hover {
+      background-color: #a35cff;
     }
   </style>
 </head>
 <body>
+  <h1>Thank you for your purchase! 🎉</h1>
+  <p>You can now open the tool using the button below:</p>
+  <a href="https://kleinelars.github.io/KLKahoot/" class="button" target="_blank">Open the Tool</a>
 
-  <h1>Thank You for Your Purchase!</h1>
-  <p>You’ll receive your tool via email shortly.</p>
-  <a href="https://kleinelars.github.io/KleineLarsTools/" class="back-button">Back to Tools</a>
-
+  <p>Or go back to the homepage:</p>
+  <a href="https://kleinelars.github.io/KleineLarsTools/" class="button">Back to Homepage</a>
 </body>
 </html>
